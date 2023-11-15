@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-block: 50px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: #E53170;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    float: left;
+}
+
+.col {
+    float: left;
+    background-color: #0F0E17;
+    color: white;
+    width: calc(100% / 3);
+}
