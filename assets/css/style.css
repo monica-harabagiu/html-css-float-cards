@@ -15,7 +15,7 @@ body {
 
 header {
     text-align: center;
-    margin-block: 50px;
+    margin-block: 30px;
 }
 
 h1 {
@@ -29,13 +29,50 @@ h1 {
     clear: both;
 }
 
-img {
-    float: left;
-}
-
 .col {
     float: left;
     background-color: #0F0E17;
     color: white;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 20px);
+    box-shadow: 0 0 10px #0f0e1779;
+    margin-top: 30px;
+}
+
+.col-left {
+    margin-right: 20px;
+}
+
+.col-middle {
+    margin-inline: 10px;
+}
+
+.col-right {
+    margin-left: 20px;
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+}
+
+.card-content {
+    margin-block: 10px;
+    display: inline-block;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #3FC7DF;
+    text-decoration: none;
+    font-size: 14px;
 }
